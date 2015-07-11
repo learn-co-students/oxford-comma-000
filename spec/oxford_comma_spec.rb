@@ -1,5 +1,5 @@
 describe "#oxford_comma" do
-  it 'returns a string without any additional fomatting when given a 1-element array' do
+  it 'returns a string without any additional formatting when given a 1-element array' do
     expect(oxford_comma(["kiwi"])).to eq("kiwi")
   end
   it "adds 'and' between elements when given a 2-element array" do
@@ -13,3 +13,8 @@ describe "#oxford_comma" do
     expect(oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychees", "pomelos"])).to eq("kiwi, durian, starfruit, mangos, dragon fruits, lychees, and pomelos")
   end
 end
+
+
+
+
+
